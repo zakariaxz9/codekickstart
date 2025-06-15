@@ -4,7 +4,7 @@ import { ConvexReactClient } from "convex/react";
 import "./index.css";
 import App from "./App";
 
-const convex = new ConvexReactClient(https://canny-bee-561.convex.cloud);
+const convex = new ConvexReactClient("https://canny-bee-561.convex.cloud");
 
 createRoot(document.getElementById("root")!).render(
   <ConvexAuthProvider client={convex}>
